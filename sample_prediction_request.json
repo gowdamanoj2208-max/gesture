@@ -1,0 +1,23 @@
+{
+  "features": {
+    "nose_x": 0.4691,
+    "nose_y": 0.2165,
+    "l_shoulder_x": 0.5661,
+    "l_shoulder_y": 0.3326,
+    "r_shoulder_x": 0.384,
+    "r_shoulder_y": 0.33,
+    "l_elbow_x": 0.583,
+    "l_elbow_y": 0.5016,
+    "r_elbow_x": 0.2162,
+    "r_elbow_y": 0.3528,
+    "l_wrist_x": 0.5932,
+    "l_wrist_y": 0.7026,
+    "r_wrist_x": 0.0229,
+    "r_wrist_y": 0.3433,
+    "l_elbow_angle": 177.2,
+    "r_elbow_angle": 169.5,
+    "l_wrist_rel_y": 2.031,
+    "r_wrist_rel_y": 0.073,
+    "wrist_distance": 3.701
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "dataset_rows": 1000,
+  "class_count": 8,
+  "classes": [
+    "arms_crossed",
+    "both_hands_up",
+    "hands_together",
+    "idle",
+    "left_arm_out",
+    "left_hand_up",
+    "right_arm_out",
+    "right_hand_up"
+  ],
+  "feature_count": 19,
+  "features": [
+    "nose_x",
+    "nose_y",
+    "l_shoulder_x",
+    "l_shoulder_y",
+    "r_shoulder_x",
+    "r_shoulder_y",
+    "l_elbow_x",
+    "l_elbow_y",
+    "r_elbow_x",
+    "r_elbow_y",
+    "l_wrist_x",
+    "l_wrist_y",
+    "r_wrist_x",
+    "r_wrist_y",
+    "l_elbow_angle",
+    "r_elbow_angle",
+    "l_wrist_rel_y",
+    "r_wrist_rel_y",
+    "wrist_distance"
+  ],
+  "split_counts": {
+    "train": 700,
+    "val": 150,
+    "test": 150
+  },
+  "validation_accuracy": 0.9933333333333333,
+  "test_accuracy": 0.98,
+  "test_classification_report": {
+    "arms_crossed": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 18.0
+    },
+    "both_hands_up": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 17.0
+    },
+    "hands_together": {
+      "precision": 0.9130434782608695,
+      "recall": 0.9545454545454546,
+      "f1-score": 0.9333333333333333,
+      "support": 22.0
+    },
+    "idle": {
+      "precision": 0.9333333333333333,
+      "recall": 0.875,
+      "f1-score": 0.9032258064516129,
+      "support": 16.0
+    },
+    "left_arm_out": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    },
+    "left_hand_up": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "right_arm_out": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "right_hand_up": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 17.0
+    },
+    "accuracy": 0.98,
+    "macro avg": {
+      "precision": 0.9807971014492753,
+      "recall": 0.9786931818181819,
+      "f1-score": 0.9795698924731182,
+      "support": 150.0
+    },
+    "weighted avg": {
+      "precision": 0.980135265700483,
+      "recall": 0.98,
+      "f1-score": 0.979899641577061,
+      "support": 150.0
+    }
+  },
+  "note": "Synthetic keypoint dataset metrics; not evidence of real-world webcam accuracy."
+}
